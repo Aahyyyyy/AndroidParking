@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ParkingMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Parking">
+        <id column="Pno" property="Pno" />
+        <result column="Ano" property="Ano" />
+        <result column="Plength" property="Plength" />
+        <result column="Pwide" property="Pwide" />
+        <result column="Pbuildarea" property="Pbuildarea" />
+        <result column="Pusearea" property="Pusearea" />
+        <result column="Pprice" property="Pprice" />
+        <result column="Pstatus" property="Pstatus" />
+        <result column="Sno" property="Sno" />
+        <result column="Bno" property="Bno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        Pno, Ano, Plength, Pwide, Pbuildarea, Pusearea, Pprice, Pstatus, Sno, Bno
+    </sql>
+
+</mapper>

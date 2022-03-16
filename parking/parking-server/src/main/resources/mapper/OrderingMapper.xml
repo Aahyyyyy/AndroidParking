@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.OrderingMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Ordering">
+        <id column="ORno" property="ORno" />
+        <result column="Ono" property="Ono" />
+        <result column="Pno" property="Pno" />
+        <result column="ORmoney" property="ORmoney" />
+        <result column="ORdate" property="ORdate" />
+        <result column="ORstatus" property="ORstatus" />
+        <result column="ORpayment" property="ORpayment" />
+        <result column="ORlast" property="ORlast" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ORno, Ono, Pno, ORmoney, ORdate, ORstatus, ORpayment, ORlast
+    </sql>
+
+</mapper>

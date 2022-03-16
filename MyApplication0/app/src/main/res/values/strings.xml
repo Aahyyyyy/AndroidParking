@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">朋贝车位</string>
+    <string name="home_search">
+
+    </string>
+    <string name="login_forget">
+        <u>忘记密码?</u>
+    </string>
+    <string name="home_vr">VR看车位＞</string>
+    <string name="login_agree">
+        阅读并同意《<u>朋贝车位用户服务协议</u>》
+    </string>
+    <string name="goCert">
+        <u>立即认证</u>＞
+    </string>
+</resources>

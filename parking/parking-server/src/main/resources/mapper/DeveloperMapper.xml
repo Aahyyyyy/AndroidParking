@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.DeveloperMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Developer">
+        <id column="Dno" property="Dno" />
+        <result column="Daccount" property="Daccount" />
+        <result column="Dpassword" property="Dpassword" />
+        <result column="Dname" property="Dname" />
+        <result column="Daddress" property="Daddress" />
+        <result column="Dphonenum" property="Dphonenum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        Dno, Daccount, Dpassword, Dname, Daddress, Dphonenum
+    </sql>
+
+</mapper>

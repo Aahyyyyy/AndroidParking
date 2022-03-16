@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.CommunityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Community">
+        <id column="Cno" property="Cno" />
+        <result column="Cname" property="Cname" />
+        <result column="Caddress" property="Caddress" />
+        <result column="Cphoto" property="Cphoto" />
+        <result column="Dno" property="Dno" />
+        <result column="Ccity" property="Ccity" />
+        <result column="Clat" property="Clat" />
+        <result column="Clng" property="Clng" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        Cno, Cname, Caddress, Cphoto, Dno, Ccity, Clat, Clng
+    </sql>
+
+</mapper>
